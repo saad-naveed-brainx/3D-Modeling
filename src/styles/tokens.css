@@ -1,0 +1,28 @@
+/* Design tokens (SCOPE §9.6). Light values first, dark overrides below. */
+:root {
+  color-scheme: light dark;
+
+  --color-ours: #f2b705;
+  --color-galvanised: #8c959c;
+  --color-text: #2b2f33;
+  --color-panel: rgb(230 232 234 / 0.86);
+  --color-rule: rgb(43 47 51 / 0.24);
+
+  /* Sky gradient behind the transparent canvas. */
+  --sky-top: #a7c9e6;
+  --sky-bottom: #e6eef4;
+
+  --font-heading: 'Barlow Condensed', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #e6e8ea;
+    --color-panel: rgb(34 38 43 / 0.86);
+    --color-rule: rgb(230 232 234 / 0.24);
+
+    --sky-top: #16213a;
+    --sky-bottom: #4d5a78;
+  }
+}

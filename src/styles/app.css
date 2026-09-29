@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background: linear-gradient(to bottom, var(--sky-top), var(--sky-bottom));
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.viewer {
+  position: fixed;
+  inset: 0;
+}
+
+.viewer-canvas {
+  touch-action: none;
+}
