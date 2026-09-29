@@ -4,6 +4,13 @@ Newest first. One dated entry per task: what changed, where, how it was verified
 
 ---
 
+## 2026-09-29: GitHub remote and README stub
+
+- **Changed:** Added `origin` → `git@github.com:saad-naveed-brainx/3D-Modeling.git`. Added `README.md` with only the heading `# 3D-Modeling`; the full README is a Phase 9 deliverable.
+- **Verified:** `git remote -v`.
+- **Not done:** Push. The user pushes: `git push -u origin main`.
+- **Branch:** `main`.
+
 ## 2026-09-29: Phase 1 — project setup and empty scene
 
 - **Changed:** Vite + React + TS (strict) + R3F project with ESLint and Prettier. Config in `src/config/` (`house.ts`, `scene.ts`, `views.ts`, `materials.ts`). Procedural textures and noise, the slab builder, the ground disc and sky dome (`src/geometry/`). Scene with a procedural environment map, sun with PCF shadows, hemisphere fill, a single OrbitControls with limits and a target clamp, and the `window.__viewer` test hook (`src/scene/`). CSS tokens with light and dark sky gradients. Playwright with 4 projects.

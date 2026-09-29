@@ -58,6 +58,7 @@ A 3D viewer that runs in the browser (Vite, React, TypeScript, React Three Fiber
 
 - Build the SCOPE §12 phases in order. After each phase: commit, take Playwright screenshots (Chromium + WebKit), post a short summary, then **stop and wait for the user's go-ahead**.
 - Check the scene visually from several presets; type checks alone aren't enough.
+- Git remote `origin` is `git@github.com:saad-naveed-brainx/3D-Modeling.git`. Claude commits but can't push; the user pushes.
 
 ## Response style
 
